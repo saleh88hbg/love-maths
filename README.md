@@ -1,102 +1,102 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#                                King Burger's club
 
-Welcome saleh88hbg,
+![burgerking](assets/images/lovemathscreen.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
 
-## Gitpod Reminders
+## [View the live project here.](https://saleh88hbg.github.io/love-maths/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## User Experience (UX)
 
-A blue button should appear to click: _Make Public_,
+Code instutite - Love Maths Walkthrough Project - JavaScript Walkthrough Project
 
-Another blue button should appear to click: _Open Browser_.
+## Technologies Used
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Languages
 
-A blue button should appear to click: _Make Public_,
+[HTML5](https://en.wikipedia.org/wiki/HTML5)
+Was used for the overall structure of the website.
 
-Another blue button should appear to click: _Open Browser_.
+[CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+Was used for styling the elements and content on the website.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+[Javascript](https://en.wikipedia.org/wiki/JavaScript)
+Was used for to code relevant responses to user actions and calculating.
 
-To log into the Heroku toolbelt CLI:
+### Frameworks, IDE, Libraries and Programs
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+[Google Fonts:](https://fonts.google.com/) - 
+Google fonts were used to import the 'Barlow Condensed' font into the style.css file which is used on all pages throughout the project.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+[GitHub:](https://github.com/)
+GitHub was used to store the projects code after being pushed from Git.
 
-------
+[Gitpod:](https://www.gitpod.io/)
+Was used to develop and write my project and push all commits through integrated "git" to Github.
 
-## Release History
+## Testing : W3C and JSHint
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The W3C Html Validator, W3C CSS Validator Services and the JSHint were used to validate the code. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+No errors were found in the code, only few warnings were the W3C html consider that heading elements need to be continued. 
+[W3html](https://validator.w3.org/nu/?doc=http%3A%2F%2Fsaleh88hbg.github.io/love-maths/%2F&showsource=yes&showoutline=yes)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+[W3Css](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fsaleh88hbg.github.io%2Flove-maths%2F)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+[JSHint] No errors found, only one warning on line 19 : Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (checkAnswer, runGame).
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Testing : Lighthouse
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+I also used Lighthouse to audit the performance of the websites.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Mobile device: 94% performance
+Desktop: 85% performance
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Features
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+1. Basic and clean UX.
+2. Mobile responsive website.
+3. Interactive website.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Features Left to Implement
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+In a near future I would like to implement:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+1. Add table booking
+2. Add Order menu
+3. Add coupon function
+4. Add payment function
+5. Add member database
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+To complete that i need to learn more programming languages to make the website more interactive and functional.
 
-------
+## Tools and editors:
 
-## FAQ about the uptime script
+[Google fonts:](https://fonts.google.com/)
+Font Family: "Raleway" for the entire project.
 
-**Why have you added this script?**
+[Font Awesome:](https://fontawesome.com/)
+The icon combination used on the button and (get to know us section).
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Compatibility
 
-**How will this affect me?**
+* The website was tested: 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* Browser: Edge and Chrome : No problems detected
+* DevTools: Chrome
+* W3C
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Content
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+1. Code instutite - Love Maths Walkthrough Project - JavaScript Walkthrough Project
 
-**So….?**
+### The images and information were obtained from:
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+1. Code instutite - Love Maths Walkthrough Project - JavaScript Walkthrough Project
 
-**Can I opt out?**
+## Credits
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
+* Code instutite - Love Maths Walkthrough Project - JavaScript Walkthrough Project
 ---
 
-Happy coding!
+Saleh Chehade 2021-07-13 "Happy coding"
