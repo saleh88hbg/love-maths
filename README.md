@@ -1,6 +1,6 @@
-#                                King Burger's club
+#                                Love Maths Walkthrough Project
 
-![burgerking](assets/images/lovemathscreen.png)
+![LoveMath](assets/images/lovemathscreen.png)
 
 
 ## [View the live project here.](https://saleh88hbg.github.io/love-maths/)
